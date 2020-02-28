@@ -1,0 +1,23 @@
+
+.flex-container {
+    display: flex;
+}
+
+.expiration-time-container ~ .form-group {
+    flex-basis: 20%;
+    margin-left: auto;
+}
+
+.expiration-time-container {
+    display: flex;
+    flex-basis: 80%;
+}
+
+.expiration-time-container .form-group {
+    flex-basis: 50%;
+    margin-right: 24px;
+}
+
+.expiration-time-container .form-group:nth-child(2) {
+    margin-top: 24px;
+}
